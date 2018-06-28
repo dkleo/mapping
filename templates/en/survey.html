@@ -1,0 +1,129 @@
+<div class="content-root animated fadeInLeft">
+
+	<div class="content-arrow">
+		<a href="#"><img src="img/content-arrow.png"></a>
+	</div>
+
+
+	<div class="header-container">
+
+		<div class="child-content">
+
+		    <h1>Tell us a little bit more about yourself.</h1>
+			<p>This additional questionnaire is optional and will help us better understand the needs of the community. If you choose not to complete this questionnaire, your input will still be recorded on the map. Thank you for taking the time to provide us with input for the Oakland Bike Plan.</p>
+			<hr>
+		    <form id="suggestion-submit" class="ws-validate" enctype="multipart/form-data">
+		      <div class="form-group">
+		      	<label for="zipcode">*Zip Code - Home <span class="required-icon"></span></label>
+		      	<select id="zipcode" name="zipcode" class="form-control" required>
+		      		<option disabled="" selected="" value=""> -- select an option -- </option>
+		      		<option value="94601">94601</option>
+		      		<option value="94602">94602</option>
+					<option value="94603">94603</option>
+		      		<option value="94605">94605</option>
+		      		<option value="94606">94606</option>
+		      		<option value="94607">94607</option>
+		      		<option value="94608">94608</option>
+					<option value="94609">94609</option>
+		      		<option value="94610">94610</option>
+		      		<option value="94611">94611</option>
+		      		<option value="94612">94612</option>
+		      		<option value="94618">94618</option>
+					<option value="94619">94619</option>
+		      		<option value="94621">94621</option>
+		      		<option value="94704">94704</option>
+		      		<option value="94705">94705</option>
+		      		<option value="Not In Oakland">Not In Oakland</option>
+		      		<option value="Prefer not to respond">Prefer not to respond</option>
+		      	</select>
+		      </div>	
+		      <div class="form-group">
+		      	<label for="age">Age</label>
+		      	<select id="age" name="age" class="form-control">
+		      		<option disabled="" selected="" value=""> -- select an option -- </option>
+		      		<option value="16-35">16-35</option>
+		      		<option value="35-44">35-44</option>
+		      		<option value="45-64">45-64</option>
+		      		<option value="65+">65+</option>
+		      	</select>
+		      </div>
+			  <script language="javascript">
+				function checkGender(){
+					if ($('#gender').val() == 'other gender identity') {
+						$('#genderOtherGroup').css('display','inline');
+					}
+					else {
+						$('#genderOtherGroup').css('display','none');
+					}
+				}
+				function checkEthnicity(){
+					if ($('#race').val() == 'Other') {
+						$('#ethnicityOtherGroup').css('display','inline');
+					}
+					else {
+						$('#ethnicityOtherGroup').css('display','none');
+					}
+				}
+			  </script>
+		      <div class="form-group">
+		      	<label for="gender">Gender</label>
+		      	<select id="gender" name="gender" class="form-control" onChange="checkGender();">
+		      		<option disabled="" selected="" value=""> -- select an option -- </option>
+		      		<option value="man">Man</option>
+		      		<option value="woman">Woman</option>
+		      		<option value="other gender identity">Other Gender Identity</option>
+		      		<option value="Prefer not to respond">Prefer not to respond</option>
+		      	</select>
+				  <div id="genderOtherGroup" style="display:none;width:70%;margin-left:15%;margin-right:auto">
+				  	<label for="genderother">Other</label>
+					 <input type="text" id="genderother" name="genderother" class="form-control" style="width:70%;margin-left:15%;">
+				  </div>				  
+		      </div>
+
+		      <div class="form-group">
+		      	<label for="race">Race/Ethnicity</label>
+		      	<select id="race" name="race" class="form-control" onChange="checkEthnicity();">
+		      		<option disabled="" selected="" value=""> -- select an option -- </option>
+		      		<option value="Hispanic">Hispanic</option>
+		      		<option value="White">White</option>
+		      		<option value="AfricanAmerican">African American</option>
+		      		<option value="Asian">Asian</option>
+					<option value="Other">Other</option>
+		      	</select>
+				  <div id="ethnicityOtherGroup" style="display:none;width:70%;margin-left:15%;margin-right:auto">
+				  	<label for="ethnicityother">Other</label>
+					 <input type="text" id="ethnicityother" name="ethnicityother" class="form-control" style="width:70%;margin-left:15%;">
+				  </div>	
+		      </div>
+
+		      <div class="form-group">
+		      	<label for="frequency">How often do you ride a bike in a typical month?</label>
+		      	<select id="frequency" name="frequency" class="form-control">
+		      		<option disabled="" selected="" value=""> -- select an option -- </option>
+		      		<option value="Never">Never</option>
+		      		<option value="onceamonth">At least once a month</option>
+		      		<option value="onceaweek">At least once a week</option>
+		      		<option value="2-3eachweek">2-3 times per week</option>
+					<option value="5eachweek">5+ times per week</option>
+		      	</select>
+		      </div>
+				
+		      <div class="form-group">
+		      	<label for="bikingrelationship">Which of the following do you feel best identifies your relationship to biking?</label>
+		      	<select id="bikingrelationship" name="bikingrelationship" class="form-control">
+		      		<option disabled="" selected="" value=""> -- select an option -- </option>
+		      		<option value="Strong and Fearless">Strong and Fearless - Very comfortable and willing to bike on streets without bike lanes</option>
+		      		<option value="Enthusiastic and Confident">Enthusiastic and Confident - Very comfortable but prefer to bike on streets with bike lanes</option>
+		      		<option value="Interested But Concerned">Interested, But Concerned – Only comfortable biking on streets with buffered or separated bike lanes and interested in biking more</option>
+		      		<option value="Not Currently Interested">Not Currently Interested - Physically unable or very uncomfortable biking even on streets with separated bike lanes</option>
+		      	</select>
+		      </div>
+		      <div id="status"></div>
+		      <input id="submit" class="save" type="submit" value="Submit">
+		      <a class="btn-primary inline-block content-close-btn" href="#/step-one">Cancel</a>
+		      
+		    </form> 
+		</div>
+
+	</div>
+</div>

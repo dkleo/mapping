@@ -1,0 +1,26 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "ID": 34, "PARENT_AGENCY": "DALY CITY CITY HALL", "ADDRESS": "333 90TH ST.\nDALY CITY, CA 94015" }, "geometry": { "type": "Point", "coordinates": [ -122.47333165969383, 37.691065419677898 ] } },
+{ "type": "Feature", "properties": { "ID": 1013, "PARENT_AGENCY": "BRISBANE CITY HALL", "ADDRESS": "50 PARK PL.\nBRISBANE, CA 94005" }, "geometry": { "type": "Point", "coordinates": [ -122.40248147923177, 37.686360431780813 ] } },
+{ "type": "Feature", "properties": { "ID": 1035, "PARENT_AGENCY": "MILLBRAE CITY HALL", "ADDRESS": "621 MAGNOLIA AVE.\nMILLBRAE, CA 94030" }, "geometry": { "type": "Point", "coordinates": [ -122.39638236013201, 37.603129166197974 ] } },
+{ "type": "Feature", "properties": { "ID": 1284, "PARENT_AGENCY": "PORTOLA VALLEY TOWN HALL", "ADDRESS": "765 PORTOLA ROAD\nPORTOLA VALLEY, CA 94028" }, "geometry": { "type": "Point", "coordinates": [ -122.22823942704872, 37.382076356850973 ] } },
+{ "type": "Feature", "properties": { "ID": 1288, "PARENT_AGENCY": "PACIFICA CITY HALL", "ADDRESS": "170 SANTA MARIA AVE.\nPACIFICA, CA 94044" }, "geometry": { "type": "Point", "coordinates": [ -122.49073125922874, 37.635210351088823 ] } },
+{ "type": "Feature", "properties": { "ID": 1300, "PARENT_AGENCY": "COLMA CITY HALL", "ADDRESS": "1198 EL CAMINO REAL\nCOLMA, CA 94014" }, "geometry": { "type": "Point", "coordinates": [ -122.45843459073592, 37.676564209342416 ] } },
+{ "type": "Feature", "properties": { "ID": 1323, "PARENT_AGENCY": "FOSTER CITY CITY HALL", "ADDRESS": "610 FOSTER CITY BLVD.\nFOSTER CITY, CA 94404" }, "geometry": { "type": "Point", "coordinates": [ -122.26846610141934, 37.56086157627584 ] } },
+{ "type": "Feature", "properties": { "ID": 1046, "PARENT_AGENCY": "SAN BRUNO CITY HALL", "ADDRESS": "567 EL CAMINO REAL\nSAN BRUNO, CA 94066" }, "geometry": { "type": "Point", "coordinates": [ -122.41438171806703, 37.625151374561838 ] } },
+{ "type": "Feature", "properties": { "ID": 1048, "PARENT_AGENCY": "SOUTH SAN FRANCISCO CITY HALL", "ADDRESS": "400 GRAND AVE.\nSOUTH SAN FRANCISCO, CA 94080" }, "geometry": { "type": "Point", "coordinates": [ -122.43759260224948, 37.640298691123917 ] } },
+{ "type": "Feature", "properties": { "ID": 1082, "PARENT_AGENCY": "BURLINGAME CITY HALL", "ADDRESS": "501 PRIMROSE RD.\nBURLINGAME, CA 94010" }, "geometry": { "type": "Point", "coordinates": [ -122.35071809421908, 37.580259952447818 ] } },
+{ "type": "Feature", "properties": { "ID": 1083, "PARENT_AGENCY": "HILLSBOROUGH TOWN HALL", "ADDRESS": "1600 FLORIBUNDA AVE.\nHILLSBOROUGH, CA 94010" }, "geometry": { "type": "Point", "coordinates": [ -122.35590718232817, 37.577436081275835 ] } },
+{ "type": "Feature", "properties": { "ID": 1132, "PARENT_AGENCY": "SAN MATEO CITY HALL", "ADDRESS": "330 W. 20TH AVE.\nSAN MATEO, CA 94403" }, "geometry": { "type": "Point", "coordinates": [ -122.31500601643558, 37.547021010244919 ] } },
+{ "type": "Feature", "properties": { "ID": 1159, "PARENT_AGENCY": "BELMONT CITY HALL", "ADDRESS": "1 TWIN PINES LN.\nBELMONT, CA 94002" }, "geometry": { "type": "Point", "coordinates": [ -122.27764131138036, 37.518490823487298 ] } },
+{ "type": "Feature", "properties": { "ID": 1186, "PARENT_AGENCY": "REDWOOD CITY CITY HALL", "ADDRESS": "1017 MIDDLEFIELD RD.\nREDWOOD CITY, CA 94063" }, "geometry": { "type": "Point", "coordinates": [ -122.22757775660574, 37.484493182502774 ] } },
+{ "type": "Feature", "properties": { "ID": 1195, "PARENT_AGENCY": "SAN CARLOS CITY HALL", "ADDRESS": "600 ELM ST.\nSAN CARLOS, CA 94070" }, "geometry": { "type": "Point", "coordinates": [ -122.2621798404345, 37.504375159615506 ] } },
+{ "type": "Feature", "properties": { "ID": 1223, "PARENT_AGENCY": "EAST PALO ALTO CITY HALL", "ADDRESS": "2415 UNIVERSITY AVE.\nEAST PALO ALTO, CA 94065" }, "geometry": { "type": "Point", "coordinates": [ -122.13957526818001, 37.472287349610099 ] } },
+{ "type": "Feature", "properties": { "ID": 1234, "PARENT_AGENCY": "HALF MOON BAY CITY HALL", "ADDRESS": "501 MAIN ST.\nHALF MOON BAY, CA 94019" }, "geometry": { "type": "Point", "coordinates": [ -122.42923790059729, 37.463473993722971 ] } },
+{ "type": "Feature", "properties": { "ID": 1349, "PARENT_AGENCY": "MENLO PARK CITY HALL", "ADDRESS": "701 LAUREL ST.\nMENLO PARK, CA 94025" }, "geometry": { "type": "Point", "coordinates": [ -122.17739677134122, 37.454354246908991 ] } },
+{ "type": "Feature", "properties": { "ID": 1237, "PARENT_AGENCY": "ATHERTON TOWN HALL", "ADDRESS": "91 ASHFIELD RD.\nATHERTON, CA 94027" }, "geometry": { "type": "Point", "coordinates": [ -122.19733872212197, 37.4635459394853 ] } },
+{ "type": "Feature", "properties": { "ID": 1258, "PARENT_AGENCY": "WOODSIDE TOWN HALL", "ADDRESS": "2955 WOODSIDE ROAD\nWOODSIDE, CA 94062" }, "geometry": { "type": "Point", "coordinates": [ -122.25103063558537, 37.429166961938492 ] } }
+]
+}

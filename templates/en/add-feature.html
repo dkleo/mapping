@@ -1,0 +1,60 @@
+<div class="content-root animated fadeInLeft">
+
+	<div class="content-error hidden">
+		<div class="content-error-img"><img src='img/content-close.png'></div>
+		<div class="content-error-text">Your suggestion is out of bounds. Please place your suggestion within the flashing bounds and try again.</div>
+	</div>
+
+	<div class="content-arrow">
+		<a href="#"><img src="img/content-arrow.png"></a>
+	</div>
+
+
+	<div class="header-container">
+
+		<div class="child-content">
+
+		    <h1>Comment Here</h1>
+
+		    <p>Please complete the form below.</p>
+
+		    <form id="suggestion-submit" class="ws-validate" enctype="multipart/form-data">
+
+		      <div class="form-group">
+		        <label for="name">Your Name:</label>
+		        <input class="form-control" type="text" name="name">
+		      </div>
+		      <div class="form-group">
+		      	<label for="category">Which type of point are you adding? <span class="required-icon"></span></label>
+		      	<select id="category" name="category" class="form-control" required>
+		      		<option disabled="" selected="" value=""> -- select an option -- </option>
+		      		<option value="safetyconcern">Safety Concern</option>
+		      		<option value="bikeparking">Bike Parking Needed</option>
+					<option value="bikerepair">DIY Bike Repair Station Need</option>
+		      		<option value="transit">Transit Stop You Bike To</option>
+					<option value="otherconcern">Other Concern</option>
+		      	</select>
+		      </div>
+		      <div class="form-group">
+		        <label for="comment">Comment<span class="story-min"> (<span class="story-word">0</span>/500 characters)</span>: <span class="required-icon"></span></label>
+		        <textarea name="comment" class="form-control story" rows="5" required></textarea>
+		      </div>
+
+		      <div id="status"></div>
+		      <input id="submit" class="save full" type="submit" value="Save">
+		      <a class="btn-primary inline-block content-close-btn step" href="#/step-one">Cancel</a>
+		      
+		    </form> 
+		</div>
+
+	</div>
+</div>
+<script type="application/javascript">
+	// change html based on type of geometry selected
+	var layer = mapData.drawnItemsLayer.getLayers()[0];
+    var shape = layer.toGeoJSON();
+	if (shape.geometry.type == 'LineString'){
+		$( "#categoryLabel" ).html("<label for='category'>What type of route are you adding? <span class='required-icon'></span></label>");
+		$( "#category" ).html( "<select id='category' name='category' class='form-control' required><option disabled='' selected='' value=''> -- select an option -- </option><option value='routeused'>Route I Use</option><option value='routeimprove'>Route Needing Improvement</option></select>" );		
+	}
+</script>

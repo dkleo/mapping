@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="canvas-blob.js" server="altaprojects.net" local="131746808457158815" remote="131654611800000000" Dst="2" />
+<file name="color-picker.js" server="altaprojects.net" local="131746808462545163" remote="131654611800000000" Dst="2" />
+<file name="details.js" server="altaprojects.net" local="131746808540798085" remote="131654613600000000" Dst="2" />
+<file name="dom-extend.js" server="altaprojects.net" local="131746808544965288" remote="131654613600000000" Dst="2" />
+<file name="es6.js" server="altaprojects.net" local="131746808551493600" remote="131654613600000000" Dst="2" />
+<file name="excanvas.js" server="altaprojects.net" local="131746808552561020" remote="131654613600000000" Dst="2" />
+<file name="es5.js" server="altaprojects.net" local="131746808553647836" remote="131654613600000000" Dst="2" />
+<file name="filereader-xhr.js" server="altaprojects.net" local="131746808557661434" remote="131654613600000000" Dst="2" />
+<file name="form-combat.js" server="altaprojects.net" local="131746808558694512" remote="131654613600000000" Dst="2" />
+<file name="form-core.js" server="altaprojects.net" local="131746808559784376" remote="131654613600000000" Dst="2" />
+<file name="form-datalist-lazy.js" server="altaprojects.net" local="131746808563509509" remote="131654613600000000" Dst="2" />
+<file name="form-datalist.js" server="altaprojects.net" local="131746808564656460" remote="131654614200000000" Dst="2" />
+<file name="form-fixrangechange.js" server="altaprojects.net" local="131746808565713660" remote="131654614200000000" Dst="2" />
+<file name="form-inputmode.js" server="altaprojects.net" local="131746808568675762" remote="131654614200000000" Dst="2" />
+<file name="form-message.js" server="altaprojects.net" local="131746808569787883" remote="131654614200000000" Dst="2" />
+<file name="form-native-extend.js" server="altaprojects.net" local="131746808570855592" remote="131654614200000000" Dst="2" />
+<file name="form-number-date-api.js" server="altaprojects.net" local="131746808574186753" remote="131654614200000000" Dst="2" />
+<file name="form-shim-extend.js" server="altaprojects.net" local="131746808576261225" remote="131654614200000000" Dst="2" />
+<file name="form-number-date-ui.js" server="altaprojects.net" local="131746808577428115" remote="131654614200000000" Dst="2" />
+<file name="form-shim-extend2.js" server="altaprojects.net" local="131746808580290487" remote="131654614200000000" Dst="2" />
+<file name="forms-picker.js" server="altaprojects.net" local="131746808589740552" remote="131654614200000000" Dst="2" />
+<file name="form-validation.js" server="altaprojects.net" local="131746808591725268" remote="131654614200000000" Dst="2" />
+<file name="form-validators.js" server="altaprojects.net" local="131746808591864894" remote="131654614200000000" Dst="2" />
+<file name="geolocation.js" server="altaprojects.net" local="131746808595674748" remote="131654614200000000" Dst="2" />
+<file name="matchMedia.js" server="altaprojects.net" local="131746808692680537" remote="131654617200000000" Dst="2" />
+<file name="mediacapture-picker.js" server="altaprojects.net" local="131746808693693033" remote="131654617200000000" Dst="2" />
+<file name="mediacapture.js" server="altaprojects.net" local="131746808694775220" remote="131654617200000000" Dst="2" />
+<file name="mediaelement-core.js" server="altaprojects.net" local="131746808698754623" remote="131654617800000000" Dst="2" />
+<file name="mediaelement-debug.js" server="altaprojects.net" local="131746808699841725" remote="131654617800000000" Dst="2" />
+<file name="mediaelement-jaris.js" server="altaprojects.net" local="131746808700978687" remote="131654617800000000" Dst="2" />
+<file name="mediaelement-native-fix.js" server="altaprojects.net" local="131746808703916524" remote="131654617800000000" Dst="2" />
+<file name="mediaelement-yt.js" server="altaprojects.net" local="131746808705841398" remote="131654617800000000" Dst="2" />
+<file name="picture.js" server="altaprojects.net" local="131746808717134150" remote="131654618400000000" Dst="2" />
+<file name="range-ui.js" server="altaprojects.net" local="131746808722509822" remote="131654618400000000" Dst="2" />
+<file name="sizzle.js" server="altaprojects.net" local="131746808724654443" remote="131654618400000000" Dst="2" />
+<file name="sticky.js" server="altaprojects.net" local="131746808731451447" remote="131654618400000000" Dst="2" />
+<file name="swfmini-embed.js" server="altaprojects.net" local="131746808758172317" remote="131654619600000000" Dst="2" />
+<file name="swfmini.js" server="altaprojects.net" local="131746808760137426" remote="131654619600000000" Dst="2" />
+<file name="track.js" server="altaprojects.net" local="131746808763910028" remote="131654619600000000" Dst="2" />
+<file name="track-ui.js" server="altaprojects.net" local="131746808765047004" remote="131654619600000000" Dst="2" />
+<file name="url.js" server="altaprojects.net" local="131746808766173994" remote="131654619600000000" Dst="2" />
+<file name="usermedia-core.js" server="altaprojects.net" local="131746808769950839" remote="131654619600000000" Dst="2" />
+<file name="usermedia-shim.js" server="altaprojects.net" local="131746808771007736" remote="131654619600000000" Dst="2" />
+</dwsync>

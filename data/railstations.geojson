@@ -1,0 +1,24 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "STATION": "Daly City", "USER_": "BART" }, "geometry": { "type": "Point", "coordinates": [ -122.46862352710144, 37.70645446891757 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "STATION": "S. San Francisco", "USER_": "Caltrain" }, "geometry": { "type": "Point", "coordinates": [ -122.4048723243377, 37.65575821961437 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 3, "STATION": "San Bruno", "USER_": "Caltrain" }, "geometry": { "type": "Point", "coordinates": [ -122.40785075916563, 37.623945467960993 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 4, "STATION": "Milbrae", "USER_": "Caltrain" }, "geometry": { "type": "Point", "coordinates": [ -122.38580243901026, 37.598990280237899 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 5, "STATION": "Broadway", "USER_": "Caltrain" }, "geometry": { "type": "Point", "coordinates": [ -122.36250006029587, 37.587625529922036 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 6, "STATION": "Burlingame", "USER_": "Caltrain" }, "geometry": { "type": "Point", "coordinates": [ -122.34491005634845, 37.580062531427188 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 7, "STATION": "San Mateo", "USER_": "Caltrain" }, "geometry": { "type": "Point", "coordinates": [ -122.32189711268626, 37.566345282558927 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 8, "STATION": "Hayward Park", "USER_": "Caltrain" }, "geometry": { "type": "Point", "coordinates": [ -122.31084511150732, 37.555696968847599 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 9, "STATION": "Hillsdale", "USER_": "Caltrain" }, "geometry": { "type": "Point", "coordinates": [ -122.29664185587222, 37.536748655962128 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 10, "STATION": "Belmont", "USER_": "Caltrain" }, "geometry": { "type": "Point", "coordinates": [ -122.27617829047819, 37.521121719151324 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 11, "STATION": "San Carlos", "USER_": "Caltrain" }, "geometry": { "type": "Point", "coordinates": [ -122.25981528499142, 37.507416280326026 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 12, "STATION": "Redwood City", "USER_": "Caltrain" }, "geometry": { "type": "Point", "coordinates": [ -122.23156665429519, 37.485872405004557 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 13, "STATION": "Atherton", "USER_": "Caltrain" }, "geometry": { "type": "Point", "coordinates": [ -122.19811295767624, 37.464568468555342 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 14, "STATION": "Menlo Park", "USER_": "Caltrain" }, "geometry": { "type": "Point", "coordinates": [ -122.182847331179, 37.455187844452666 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 15, "STATION": "So Francisco", "USER_": "BART" }, "geometry": { "type": "Point", "coordinates": [ -122.46707839948419, 37.685049157099854 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 16, "STATION": "San Bruno", "USER_": "BART" }, "geometry": { "type": "Point", "coordinates": [ -122.41498419909885, 37.63945321933852 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 17, "STATION": "Colma", "USER_": "BART" }, "geometry": { "type": "Point", "coordinates": [ -122.44774008218093, 37.666461842526758 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 18, "STATION": "Airport", "USER_": "BART" }, "geometry": { "type": "Point", "coordinates": [ -122.39039088669131, 37.677514784709103 ] } }
+]
+}

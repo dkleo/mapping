@@ -1,0 +1,101 @@
+<div class="marker-input hidden">
+	<div class="content-edit edit-cancel">
+		<div class="content-edit-img"><img src='img/cancel.png'></div>
+		<div class="content-edit-text">Cancel Drawing</div>
+	</div>
+</div>
+<div class="route-input hidden">
+	<div class="content-edit edit-cancel">
+		<div class="content-edit-img"><img src='img/cancel.png'></div>
+		<div class="content-edit-text">Cancel Drawing</div>
+	</div>
+	<div class="content-edit edit-backspace">
+		<div class="content-edit-img"><img src='img/backspace.png'></div>
+		<div class="content-edit-text">Delete Last Point</div>
+	</div>
+	<div class="content-edit edit-finish">
+		<div class="content-edit-img"><img src='img/checked.png'></div>
+		<div class="content-edit-text">Finish Drawing</div>
+	</div>
+</div>
+
+<div class="modal-container hidden">
+
+	<!-- Route Steps -->
+	<div id="ex1" class="modal animated fadeIn" style="display:none;">
+		<h1>Drawing Routes (Tutorial)</h1>
+		<p><b>Step One:</b> Using your mouse or touchscreen, left click on or touch the map to show where you begin your trip.</p>
+		<p><img class="border full-width" src="img/route-step-one.jpg"></p>
+		<a class="btn-primary" href="#ex2" rel="modal:open">Next Step</a>
+		<a class="btn-primary" href="#/step-one" rel="modal:close">Skip Tutorial</a>
+	</div>
+
+	<div id="ex2" class="modal" style="display:none;">
+		<h1>Drawing Routes (Tutorial)</h1>
+		<p><b>Step Two:</b> With the first point drawn, continue by left-clicking or touching the map to show where you turn along your route.</p>
+		<p><img class="border full-width" src="img/route-step-two.jpg"></p>
+		<a class="btn-primary" href="#ex3" rel="modal:open">Next Step</a>
+		<a class="btn-primary" href="#ex1" rel="modal:open">Go Back</a>
+	</div>
+
+	<div id="ex3" class="modal" style="display:none;">
+		<h1>Drawing Routes (Tutorial)</h1>
+		<p><b>Step Three:</b> To move the map while drawing your route, hold down your left button on your mouse and move the mouse to get to your desired location on the map or simply drag the map with your fingers on your touchscreen. To zoom in and out, use the wheel on your mouse or use the +/- icons in the lower right of your screen.</p>
+		<p><img class="border full-width" src="img/route-step-zoom.jpg"></p>
+		<a class="btn-primary" href="#ex4" rel="modal:open">Next Step</a>
+		<a class="btn-primary" href="#ex2" rel="modal:open">Go Back</a>
+	</div>
+
+	<div id="ex4" class="modal" style="display:none;">
+		<h1>Drawing Routes (Tutorial)</h1>
+		<p><b>Step Four:</b> To delete the last drawn point on your route, click the "Delete Last Point" button.</p>
+		<p><img class="border full-width" src="img/route-step-delete.jpg"></p>
+		<a class="btn-primary" href="#ex5" rel="modal:open">Next Step</a>
+		<a class="btn-primary" href="#ex3" rel="modal:open">Go Back</a>
+	</div>
+
+	<div id="ex5" class="modal" style="display:none;">
+		<h1>Drawing Routes (Tutorial)</h1>
+		<p><b>Step Five:</b> To finish drawing your route, double click on the final point or click the "Finish" button.</p>
+		<p><img class="border full-width" src="img/route-step-finish.jpg"></p>
+		<a class="btn-primary" href="#/step-one" rel="modal:close">Got It!</a>
+		<a class="btn-primary" href="#ex4" rel="modal:open">Go Back</a>
+	</div>
+
+	<!-- Marker Steps -->
+
+	<div id="exm1" class="modal animated fadeIn" style="display:none;">
+		<h1>Adding Markers (Tutorial)</h1>
+		<p>Using your mouse or touchscreen, left click on or touch the map to add a marker to the map.</p>
+		<p><img class="border full-width" src="img/marker-step-one.jpg"></p>
+		<a class="btn-primary" href="#/step-one" rel="modal:close">Got it!</a>
+	</div>
+
+</div>
+
+<div class="content-root animated fadeInLeft">
+
+	<div class="content-arrow">
+		<a href="#"><img src="img/content-arrow.png"></a>
+	</div>
+
+	<div class="header-container">
+		<div class="child-content">
+		    <h1>Tell us about your experience biking in Oakland.</h1>
+			<hr>
+		    <!--<p><strong>Bicycle Routes:</strong> Tell us about bike routes you currently use or routes that need improvements:</p>-->
+			<a href="#/add-feature/" class="btn-primary full add-route">Draw Route You Use</a>
+			<a href="#/add-feature/" class="btn-primary full add-route">Draw Route Needing Improvement</a>
+			<hr>			
+			<!--<p><strong>Destinations: </strong>Add points to let us know where you have a Safety Concern, Bike Parking Need, DIY Bike Repair Station or Transit Stop You Use:</p>-->
+			<a href="#/add-feature/" class="btn-primary full add-marker">Add Safety Concern</a>
+			<a href="#/add-feature/" class="btn-primary full add-marker">Add Bike Parking Need</a>
+			<a href="#/add-feature/" class="btn-primary full add-marker">Add DIY Bike Repair Station Need</a>
+			<a href="#/add-feature/" class="btn-primary full add-marker">Add Transit Stop You Bike To</a>
+			<hr>
+		    <p><strong>Tell Us About Yourself:</p>
+			<a href="#/survey/" class="btn-primary">Complete Questionnaire</a>
+		</div>
+
+	</div>
+</div>
